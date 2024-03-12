@@ -110,8 +110,6 @@ function renderGame() {
 }
 
 function newCard() {
-  console.log("Drawing a new card from the deck");
-
   // Only allow the player to get a new card if she is alive and does not have black jack
   if (isAlive === true && hasBlackJack === false) {
     // Create a new card variable and hard code to a number
