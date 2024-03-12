@@ -7,15 +7,27 @@
   </head>
   <link rel="stylesheet" href="style.css" />
   <body>
-    <div class="app-wrapper">
-      <h1>Blackjack</h1>
-      <p id="message-el">Want to play a round?</p>
-      <p id="cards-el">Cards</p>
-      <p id="sum-el">Sum</p>
-      <!-- Create a button that says Start Game Make it call a startGame() function when is clicked-->
-      <button onclick="startGame()">Start Game</button>
-      <button onclick="newCard()">New Card</button>
-      <p id="player-el">Per: €145</p>
+    <div class="container">
+      <div class="app-wrapper">
+        <div class="app-game">
+          <h1>Blackjack</h1>
+          <p id="message-el">Want to play a round?</p>
+          <p id="cards-el">Cards</p>
+          <p id="sum-el">Sum</p>
+          <!-- Create a button that says Start Game Make it call a startGame() function when is clicked-->
+          <button onclick="startGame()">Start Game</button>
+          <button onclick="newCard()">New Card</button>
+          <p id="player-el">Per: €145</p>
+        </div>
+      </div>
+    </div>
+    <div class="small-wrapper">
+      <small>
+        This project was coded by
+        <a href="https://linktr.ee/andiekay">Andreia Fernandes</a> and is
+        open-sourced on <a href="https://github.com/andie7">GitHub</a> and
+        hosted on <a href="">Netlify</a>
+      </small>
     </div>
   </body>
   <script src="script.js"></script>
