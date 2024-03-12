@@ -22,8 +22,6 @@ let isAlive = true;
 
 let message = "";
 
-console.log(sum);
-
 // store the message-el paragraph in a variable called messageEl
 
 let messageEl = document.getElementById("message-el");
@@ -51,8 +49,6 @@ function startGame() {
   }
   messageEl.textContent = message;
 }
-
-startGame();
 
 //Exercise
 // Check if the person is old enough to enter the nightclub (21)
