@@ -71,6 +71,12 @@ small a {
     font-size: 40px;
   }
 
+  .app-wrapper {
+    position: relative;
+    top: 500px;
+    left: 230px;
+  }
+
   .app-game {
     width: 260px;
     margin-left: 45px;
